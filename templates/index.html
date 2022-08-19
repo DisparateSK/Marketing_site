@@ -2,169 +2,180 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Yuliya</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/13b62b5836.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Yuliya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:wght@100;400;900&display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13b62b5836.js" crossorigin="anonymous"></script>
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <link href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet">
 </head>
 
 <body>
 
-  <section id="title">
+<section id="title">
     <div class="container-fluid">
 
 
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">Julia</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav ms-auto my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <!-- <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#features">Маркетинг в бизнесе</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonials">Продвижение в Instagram</a>
-              </li>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Julia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <!-- <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Маркетинг в бизнесе</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Продвижение в Instagram</a>
+                        </li>
 
-            </ul>
+                    </ul>
 
-          </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col col-lg-6">
+                <h1 class="heading-text">Привет, я Юлия Казаровец,</h1>
+                <h1 class="heading-text">интернет-маркетолог</h1>
+                <button type="button" class="btn btn-outline-light insta-button"><i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/yuliya_kazarovets/" style="color: WHITE">Instagram</a></button>
+                <!-- <button type="button" class="btn btn-dark">Download</button> -->
+            </div>
+
+
+            <div class="col col-lg-6">
+                <img class="julia-img" src="https://sun9-5.userapi.com/c11404/u148672455/143785527/x_daade96c.jpg"
+                     alt="Julia" style="border-radius: 2%">
+                <!-- <img src="images/julia.jpg" height="800px" alt="iphone-mockup" style="border-radius: 2%"> -->
+            </div>
         </div>
-      </nav>
+</section>
 
 
+<!-- Features -->
 
-      <!-- Title -->
-      <div class="row">
-        <div class="col col-lg-6">
-          <h1 class="heading-text">Привет, я Юлия Казаровец,</h1>
-          <h1 class="heading-text">интернет-маркетолог</h1>
-          <button type="button" class="btn btn-outline-light insta-button"><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/yuliya_kazarovets/" style="color: WHITE">Instagram</a></button>
-          <!-- <button type="button" class="btn btn-dark">Download</button> -->
-        </div>
-
-
-        <div class="col col-lg-6">
-          <img class="julia-img" src="https://sun9-5.userapi.com/c11404/u148672455/143785527/x_daade96c.jpg" alt="Julia" style="border-radius: 2%">
-          <!-- <img src="images/julia.jpg" height="800px" alt="iphone-mockup" style="border-radius: 2%"> -->
-        </div>
-      </div>
-  </section>
-
-
-  <!-- Features -->
-
-  <section id="features">
+<section id="features">
     <div class="container-fluid">
-      <div class="row feature">
-        <div class="col ">
-          <h2 style="text-align: center">Когда бизнесу нужно обратится к услугам интернет-маркетолога </h2>
+        <div class="row feature">
+            <div class="col ">
+                <h2 style="text-align: center">Когда бизнесу нужно обратится к услугам интернет-маркетолога </h2>
+            </div>
+
         </div>
 
-      </div>
+        <div class="row" style="text-align: center">
+            <div class="col-6 col-md-4 feature">
+                <i class="fa-solid fa-circle-check fa-6x fa-beat f-icon"
+                   style="--fa-animation-duration: 3s;--fa-beat-scale: 1.1;"></i>
+                <h3>Повышение продаж имеющихся товаров и услуг</h3>
+                <p></p>
+            </div>
+            <div class="col-6 col-md-4 feature">
+                <i class="fa-solid fa-circle-plus fa-6x fa-beat f-icon"
+                   style="--fa-animation-duration: 3s;--fa-beat-scale: 1.1;"></i>
+                <h3>Выведение на рынок новых товаров и услуг</h3>
+                <p></p>
+            </div>
+            <div class="col-6 col-md-4 feature">
+                <i class="fa-solid fa-briefcase fa-6x fa-beat f-icon"
+                   style="--fa-animation-duration: 3s; --fa-beat-scale: 1.1;"></i>
+                <h3>Выведение на рынок стартапов</h3>
+                <p></p>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+                    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+                    crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+                    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+                    crossorigin="anonymous"></script>
 
-      <div class="row" style="text-align: center">
-        <div class="col-6 col-md-4 feature">
-          <i class="fa-solid fa-circle-check fa-6x fa-beat f-icon" style="--fa-animation-duration: 3s;--fa-beat-scale: 1.1;"></i>
-          <h3>Повышение продаж имеющихся товаров и услуг</h3>
-          <p></p>
-        </div>
-        <div class="col-6 col-md-4 feature">
-          <i class="fa-solid fa-circle-plus fa-6x fa-beat f-icon" style="--fa-animation-duration: 3s;--fa-beat-scale: 1.1;"></i>
-          <h3>Выведение на рынок новых товаров и услуг</h3>
-          <p></p>
-        </div>
-        <div class="col-6 col-md-4 feature">
-          <i class="fa-solid fa-briefcase fa-6x fa-beat f-icon" style="--fa-animation-duration: 3s; --fa-beat-scale: 1.1;"></i>
-          <h3>Выведение на рынок стартапов</h3>
-          <p></p>
-        </div>
-          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-  </section>
-
-<script async src="https://telegram.org/js/telegram-widget.js?19" data-telegram-login="Disparate_bot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+            <script async src="https://telegram.org/js/telegram-widget.js?19" data-telegram-login="Disparate_bot" data-size="large"
+        data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
 <script type="text/javascript">
   function onTelegramAuth(user) {
     alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
   }
+
 </script>
-      </div>
-    </div>
+</section>
 
-  </section>
+</div>
+</div>
 
 
-  <!-- Testimonials -->
+<!-- Testimonials -->
 
-  <section id="testimonials">
+<section id="testimonials">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>Я помогу тебе в продвижении бизнеса
-в самой популярной социальной сети</h2>
-          <em>Instagram</em>
-          <img src="https://media1.giphy.com/media/jqVUX17Ze8mw0nXBbJ/200w.webp?cid=ecf05e47oqyip30paoc2mjg7kypeq7clu36q3gaa9euul6sv&rid=200w.webp&ct=s" class="d-block w-20" alt="dog-profile">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>Я помогу тебе в продвижении бизнеса
+                    в самой популярной социальной сети</h2>
+                <em>Instagram</em>
+                <img src="https://media1.giphy.com/media/jqVUX17Ze8mw0nXBbJ/200w.webp?cid=ecf05e47oqyip30paoc2mjg7kypeq7clu36q3gaa9euul6sv&rid=200w.webp&ct=s"
+                     class="d-block w-20" alt="dog-profile">
 
-        </div>
-        <div class="carousel-item">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <em>Pebbles, New York</em>
-          <img src="1" class="d-block w-20" alt="dog-profile">
+            </div>
+            <div class="carousel-item">
+                <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+                <em>Pebbles, New York</em>
+                <img src="1" class="d-block w-20" alt="dog-profile">
 
+            </div>
+            <div class="carousel-item">
+                <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+                <em>Pebbles, New York</em>
+                <img src="2" class="d-block w-20" alt="...">
+            </div>
+            <div class="carousel-item">
+                <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love
+                    of their life. I think.</h2>
+                <img src="3" class="d-block w-20" alt="...">
+                <em>Beverly, Illinois</em>
+            </div>
         </div>
-        <div class="carousel-item">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <em>Pebbles, New York</em>
-          <img src="2" class="d-block w-20" alt="...">
-        </div>
-        <div class="carousel-item">
-              <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img src="3" class="d-block w-20" alt="...">
-              <em>Beverly, Illinois</em>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
 
+</section>
 
 
+<!-- Press -->
 
-
-
-  </section>
-
-
-  <!-- Press -->
-
-  <section id="press">
+<section id="press">
 
     <img class="press-img" src="{{ url_for('static', filename='images/techcrunch.png')}}" alt="tc-logo">
     <img class="press-img" src="{{ url_for('static', filename='images/tnw.png')}}" alt="tnw-logo">
@@ -177,88 +188,85 @@
 
 
     <p class="placeholder-glow">
-      <span class="placeholder col-12"></span>
+        <span class="placeholder col-12"></span>
     </p>
-  </section>
+</section>
 
 
-  <!-- Pricing -->
+<!-- Pricing -->
 
-  <section id="pricing">
+<section id="pricing">
     <h2>Как мы можем с Вами работать</h2>
     <h5>Простые и доступные планы для Вас и Вашего бизнеса</h5>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-          <div class="col">
+        <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
-              <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Free</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>10 users included</li>
-                  <li>2 GB of storage</li>
-                  <li>Email support</li>
-                  <li>Help center access</li>
-                </ul>
-                <button type="button" class="w-100 btn btn-lg btn-dark">Sign up for free</button>
-              </div>
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-dark">Sign up for free</button>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
-              <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Pro</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
-                </ul>
-                <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
-              <div class="card-header py-3 text-white bg-dark border-dark">
-                <h4 class="my-0 fw-normal">Enterprise</h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
-                </ul>
-                <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
-              </div>
-            </div>
-          </div>
         </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>20 users included</li>
+                        <li>10 GB of storage</li>
+                        <li>Priority email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 text-white bg-dark border-dark">
+                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>20 users included</li>
+                        <li>10 GB of storage</li>
+                        <li>Priority email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </section>
+</section>
 
 
-  <!-- Call to Action -->
+<!-- Call to Action -->
 
-  <section id="cta">
-
-
+<section id="cta">
 
 
-
-  <!-- Footer -->
-<h1>Julia</h1>
+    <!-- Footer -->
+    <h1>Julia</h1>
 
     <p style="text-align: right; padding-right: 5%">© Copyright 2022 Julia</p>
 
 
-
+</section>
 
 </body>
 
